@@ -1,15 +1,14 @@
 /** @format */
 
-import LeftSidebar from '../../components/LeftSidebar';
-import RightSidebar from '../../components/RightSidebar';
+import Sidebar from '../../components/Sidebar';
 import styles from './private-layout.module.scss';
 
 const PrivateLayout = ({ children }) => {
 	return (
 		<div className={styles.private__layout}>
-			<LeftSidebar />
+			<Sidebar isLeftSidebar />
 			{children}
-			<RightSidebar />
+			<Sidebar />
 		</div>
 	);
 };

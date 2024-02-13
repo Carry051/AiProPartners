@@ -1,7 +1,13 @@
 /** @format */
 
+import Logo from '../../common/Logo';
+
 const LeftSidebar = () => {
-	return <h1>LEFT SIDEBAR</h1>;
+	return (
+		<>
+			<Logo />
+		</>
+	);
 };
 
 export default LeftSidebar;

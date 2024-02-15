@@ -6,3 +6,10 @@
 #root {
 	font-family: 'Nunito Sans', monospace;
 }
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0px;
+}

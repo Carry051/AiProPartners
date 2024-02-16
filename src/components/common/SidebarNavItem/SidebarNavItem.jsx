@@ -4,7 +4,15 @@ import styles from './sidebar-nav-item.module.scss';
 
 const SidebarNavItem = ({ href, icon, name }) => {
 	return (
-		<NavLink to={href} className={styles.nav__item}>
+		<NavLink
+			to={href}
+			className={styles.nav__item}
+			style={({ isActive }) => {
+				return {
+					backgroundColor: isActive ? '#24a1e0' : '',
+				};
+			}}
+		>
 			{icon}
 			{name}
 		</NavLink>

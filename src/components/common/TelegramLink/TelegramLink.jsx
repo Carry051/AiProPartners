@@ -1,6 +1,6 @@
 /** @format */
 import styles from './telegram-link.module.scss';
-import { ReactComponent as TelegramIcon } from '/src/assets/images/logos_telegram.svg';
+import { ReactComponent as TelegramIcon } from '/src/assets/images/socialLinks/telegram.svg';
 
 const TelegramLink = () => {
 	return (

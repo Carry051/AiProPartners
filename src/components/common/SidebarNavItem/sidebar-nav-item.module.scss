@@ -7,8 +7,6 @@
 	align-items: center;
 	gap: 20px;
 
-	background-color: $main-focus-color;
-
 	max-width: $sidebar-width;
 	width: 100%;
 	height: 70px;
@@ -22,4 +20,8 @@
 	color: $main-text-color;
 
 	text-align: left;
+}
+
+a.active {
+	background-color: $main-focus-color;
 }

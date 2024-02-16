@@ -2,7 +2,7 @@
 import { NavLink } from 'react-router-dom';
 import styles from './sidebar-nav-item.module.scss';
 
-const SidebarNavItem = ({ href, icon, name }) => {
+const SidebarNavItem = ({ href, name, icon }) => {
 	return (
 		<NavLink
 			to={href}

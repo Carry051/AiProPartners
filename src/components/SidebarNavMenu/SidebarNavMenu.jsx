@@ -1,7 +1,5 @@
 /** @format */
 
-import React from 'react';
-
 import { ReactComponent as DashboardIcon } from '../../assets/images/navIcons/DashboardIcon.svg';
 import { ReactComponent as FinancesIcon } from '../../assets/images/navIcons/financesIcon.svg';
 import { ReactComponent as RefHrefIcon } from '../../assets/images/navIcons/refIcon.svg';
@@ -27,8 +25,15 @@ const navItemsData = [
 const SidebarNavMenu = () => {
 	return (
 		<nav className={styles.nav__wrapper}>
-			{navItemsData.map(({ href, icon, name }, i) => {
-				return <SidebarNavItem key={i} href={href} icon={icon} name={name} />;
+			{navItemsData.map((item, i) => {
+				return (
+					<SidebarNavItem
+						key={i}
+						href={item.href}
+						icon={item.icon}
+						name={item.name}
+					/>
+				);
 			})}
 		</nav>
 	);

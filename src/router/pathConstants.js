@@ -2,6 +2,7 @@
 
 const PathConstants = {
 	HOME: '/',
+	DASHBOARD: '/dashboard',
 	SUBACCOUNT: '/subaccount',
 	REF: '/ref',
 	STUDY: '/study',

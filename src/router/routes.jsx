@@ -6,6 +6,12 @@ import PathConstants from './pathConstants';
 const routes = [
 	{
 		path: PathConstants.HOME,
+		// element: <Landing />,
+		// TODO: Add Landing router component.
+	},
+
+	{
+		path: '/dashboard',
 		element: <Charts />,
 	},
 	{

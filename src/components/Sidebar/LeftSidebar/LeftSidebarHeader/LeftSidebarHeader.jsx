@@ -1,8 +1,7 @@
 /** @format */
 
-import React from 'react';
-import Logo from '../common/Logo';
-import TelegramLink from '../common/TelegramLink';
+import Logo from '../../../common/Logo';
+import TelegramLink from '../../../common/TelegramLink';
 import styles from './left-sidebar-header.module.scss';
 
 const LeftSidebarHeader = () => {

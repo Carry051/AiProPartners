@@ -10,11 +10,14 @@
 .link {
 	display: flex;
 	align-items: center;
-	gap: 6px;
 	color: $main-text-color;
 	text-decoration: none;
 
 	&:hover {
 		text-decoration: underline;
+	}
+
+	svg {
+		scale: 0.5;
 	}
 }

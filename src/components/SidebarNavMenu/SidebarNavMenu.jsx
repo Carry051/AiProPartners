@@ -1,6 +1,6 @@
 /** @format */
 
-import { ReactComponent as DashboardIcon } from '../../assets/images/navIcons/dashboardIcon.svg';
+import { ReactComponent as DashboardIcon } from '../../assets/images/navIcons/DashboardIcon.svg';
 import { ReactComponent as FinancesIcon } from '../../assets/images/navIcons/financesIcon.svg';
 import { ReactComponent as RefHrefIcon } from '../../assets/images/navIcons/refIcon.svg';
 import { ReactComponent as StudyIcon } from '../../assets/images/navIcons/studyIcon.svg';

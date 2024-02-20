@@ -1,15 +1,16 @@
 /** @format */
 @import 'normalize.css';
-@import './assets/styles/variable';
+@import './assets/styles/variable.css';
 @import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
-#root {
-	font-family: 'Nunito Sans', monospace;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *,
 *::after,
 *::before {
+	font-family: 'Times New Roman';
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0;

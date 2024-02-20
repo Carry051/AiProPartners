@@ -1,22 +1,22 @@
 /** @format */
 import Charts from '../pages/Charts/Charts';
-import Profile from '../pages/Profile/Profile';
+import Landing from '../pages/Landing/Landing';
 import PathConstants from './pathConstants';
 
 const routes = [
 	{
 		path: PathConstants.HOME,
-		// element: <Landing />,
+		element: <Landing />,
 		// TODO: Add Landing router component.
 	},
 
 	{
-		path: '/dashboard',
+		path: PathConstants.DASHBOARD,
 		element: <Charts />,
 	},
 	{
 		path: PathConstants.SUBACCOUNT,
-		element: <Profile />,
+		// element: <Profile />,
 	},
 ];
 

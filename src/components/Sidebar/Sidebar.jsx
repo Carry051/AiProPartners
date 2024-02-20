@@ -1,13 +1,14 @@
 /** @format */
 
-import React from 'react';
 import LeftSidebar from './LeftSidebar';
 import RightSidebar from './RightSidebar/RightSidebar';
-import styles from './sidebar.module.scss';
+import { sidebar__wrapper as wrapper } from './sidebar.module.scss';
+
+console.log(wrapper);
 
 const Sidebar = (props) => {
 	return (
-		<div className={styles.sidebar__wrapper}>
+		<div className={wrapper}>
 			{props.isLeftSidebar ? <LeftSidebar /> : <RightSidebar />}
 		</div>
 	);

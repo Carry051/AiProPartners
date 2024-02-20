@@ -1,7 +1,6 @@
 /** @format */
 
-import Logo from '../../../common/Logo';
-import TelegramLink from '../../../common/TelegramLink';
+import { ReactComponent as Logo } from '../../../../assets/images/logo.svg';
 import styles from './left-sidebar-header.module.scss';
 
 const LeftSidebarHeader = () => {
@@ -10,10 +9,9 @@ const LeftSidebarHeader = () => {
 			<div className={styles.logo}>
 				<Logo />
 				<h1 className={styles.logo__text}>
-					AIPRO <span>PARTNERS</span>
+					AIPRO <span className='font-bold'>PARTNERS</span>
 				</h1>
 			</div>
-			<TelegramLink />
 		</header>
 	);
 };

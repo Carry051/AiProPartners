@@ -1,5 +1,5 @@
 /** @format */
-@import '../../assets/styles/_variable';
+@import '../../assets/styles/variable';
 
 .private__layout {
 	height: 100vh;
@@ -8,5 +8,5 @@
 
 	display: flex;
 	justify-content: space-between;
-	background-color: $main-bg;
+	background-color: var(--main-bg);
 }

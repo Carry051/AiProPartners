@@ -1,13 +1,16 @@
 /** @format */
 
-import styles from './balance-article.module.scss';
-
 const BalanceArticle = () => {
 	return (
-		<article className={styles.balance}>
-			<span className={styles.balance__emblem}>$</span>
-			<p className={styles.balance__text}>
-				Текущий баланс <span id='currentCash'>1000.00</span>
+		<article className='h-[70px] font-nunito-sans bg-light-blue rounded-[10px] flex items-center gap-[10px] p-[10px]'>
+			<span className='h-[50px] w-[50px] rounded-[10px] text-light-blue font-[900] text-[24px] flex items-center justify-center bg-black font-nunito-sans'>
+				$
+			</span>
+			<p className='font-nunito-sans flex flex-col justify-center text-[16px] '>
+				Текущий баланс
+				<span id='currentCash' className='font-nunito-sans'>
+					1000.00
+				</span>
 			</p>
 		</article>
 	);
